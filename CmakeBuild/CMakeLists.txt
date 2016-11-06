@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.4.1)
 
-add_library( native-lib SHARED
-src/main/cpp/Native.cpp
-src/main/cpp/Person.cpp)
+add_library( native-lib SHARED src/main/cpp/Native.cpp)
 
 find_library( log-lib log )
 
